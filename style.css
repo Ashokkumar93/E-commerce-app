@@ -1,0 +1,54 @@
+body {
+  padding-top: 10px;
+}
+
+#center{
+	display: block;
+    margin:0px auto 10px auto;
+    width: 13%;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+ul.thumbnails{
+	list-style: none;
+}
+
+ul.navbar-nav li{
+	margin: 0px 6px;
+}
+
+ul.navbar-nav li:nth-last-child(1) {
+    background:#000080 ;
+    margin-left:  32px;
+    border-left: 3px solid #ffffff;
+}
+
+.panel-heading .accordion-toggle:after {
+   
+    font-family: 'Glyphicons Halflings'; 
+    content:url(assets/arrow-collapsed.png);  
+    float: left;  
+    color: grey;  
+}
+.panel-heading .accordion-toggle.collapsed:after {
+ 
+    content: url(assets/arrow-expanded.png);   
+}
+
+strong>span{
+  color: #DC143C;
+}
+
+footer{
+  text-align: center;
+  background-color: gray;
+  padding: 5px 0px;
+  border-top: 2px solid black; 
+}
+
+#inputId{
+  width: 10%;
+}
